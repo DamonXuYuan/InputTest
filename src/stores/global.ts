@@ -1,7 +1,11 @@
 import { create } from "zustand";
 
-type State = {};
+type State = {
+  isLoading: boolean;
+};
 
-const globalStore = create<State>(() => ({}));
+const globalStore = create<State>(() => ({
+  isLoading: false,
+}));
 
 export default globalStore;

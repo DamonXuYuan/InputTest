@@ -12,7 +12,6 @@
     "@walletconnect/types": "^2.5.1",
     "@web3modal/ethereum": "^2.2.2",
     "@web3modal/react": "^2.2.2",
-    "bignumber.js": "^9.1.1",
     "canvas-confetti": "^1.6.0",
     "css-loader": "^6.7.3",
     "css-modules-typescript-loader": "^4.0.1",
@@ -29,7 +28,8 @@
     "typescript": "^5.0.2",
     "wagmi": "^0.12.3",
     "web-vitals": "^2.1.4",
-    "zustand": "^4.3.6"
+    "zustand": "^4.3.6",
+    "bignumber.js": "^9.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,69 @@
+.redemption {
+  width: 432px;
+  height: 391px;
+  border: 1px solid #000000;
+  box-shadow: 1px 1px 0px 1px #000;
+  background-color: #fff;
+  .title {
+    width: 100%;
+    height: 28px;
+    padding: 6px 4px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    position: relative;
+    .line {
+      width: 100%;
+      height: 1px;
+      margin-bottom: 2px;
+      background-color: #000;
+    }
+    .line:last-child {
+      margin-bottom: 0;
+    }
+    .text {
+      color: #000;
+      font-family: "Fraktion Mono";
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -0.08px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 136px;
+      height: 27px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+    }
+  }
+  .content {
+    height: calc(100% - 28px);
+    position: relative;
+    .rightDiv {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 28px;
+      height: 100%;
+      border-left: 1px solid #000;
+    }
+    .bottomDiv {
+      position: absolute;
+      width: 100%;
+      height: 28px;
+      bottom: 0;
+      left: 0;
+      border-top: 1px solid #000;
+      .box {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 6px;
+        bottom: 6px;
+      }
+    }
+  }
+}

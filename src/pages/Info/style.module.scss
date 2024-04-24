@@ -1,0 +1,78 @@
+.info {
+  width: 888px;
+  height: 200px;
+  background-color: #f7931a;
+  border: 1px solid #000;
+  padding: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  .content {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 56px;
+    box-sizing: border-box;
+    .left {
+      display: flex;
+      .tokenIcon {
+        width: 80px;
+        height: 80px;
+        margin-right: 28px;
+      }
+      .nameSection {
+        display: flex;
+        flex-direction: column;
+        .name {
+          width: 135px;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 1;
+          margin-bottom: 10px;
+          font-family: "Fraktion Mono";
+        }
+        .detail {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          font-family: "Geneva";
+          line-height: 1.2;
+          cursor: pointer;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      .text {
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+        font-family: "Fraktion Mono";
+        line-height: 1.2;
+      }
+      .link {
+        display: flex;
+        align-items: center;
+        margin-top: 11px;
+        cursor: pointer;
+        .icon {
+          width: 14px;
+          height: 14px;
+          margin-right: 6px;
+        }
+        .linkText {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.2;
+          color: #fff;
+          font-family: "Geneva";
+        }
+      }
+    }
+  }
+}

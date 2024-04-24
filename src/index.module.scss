@@ -1,2 +1,21 @@
-:root {
+/* 字体 */
+@font-face {
+  font-display: auto;
+  font-family: "Fraktion Mono";
+  font-weight: 400;
+  src: url("../src//assets/font/FraktionMono-Regular.otf");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Fraktion Mono";
+  font-weight: 700;
+  src: url("../src//assets/font/FraktionMono-Bold.otf");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Geneva";
+  font-weight: 400;
+  src: url("../src//assets/font/Geneva.ttf");
 }
