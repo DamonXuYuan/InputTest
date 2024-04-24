@@ -29,7 +29,8 @@
     "wagmi": "^0.12.3",
     "web-vitals": "^2.1.4",
     "zustand": "^4.3.6",
-    "bignumber.js": "^9.0.1"
+    "bignumber.js": "^9.0.1",
+    "classnames": "^2.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
